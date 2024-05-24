@@ -1,24 +1,55 @@
-**HandCV Sketch**
+# Hand Gesture Controlled Paint Application 🎨
 
-**Description:**
-HandCV Sketch is a drawing application that harnesses the power of computer vision to enable users to create digital art through hand gestures. Built upon the OpenCV library for computer vision and utilizing the MediaPipe library for hand detection, this application offers a seamless interface where users can draw on a virtual canvas using intuitive hand movements. With HandCV Sketch, users can paint, switch colors, and clear the canvas, all through natural gestures, providing a delightful experience for digital artists.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
+![Mediapipe](https://img.shields.io/badge/Mediapipe-00c853?style=for-the-badge&logo=Mediapipe&logoColor=white)
 
-**Installation:**
-1. Clone the repository: `git clone https://github.com/your_username/handcv-sketch.git`
-2. Install the required dependencies:
-   - OpenCV: `pip install opencv-python`
-   - NumPy: `pip install numpy`
-   - MediaPipe: `pip install mediapipe`
+A hand gesture controlled paint application using Python, OpenCV, and Mediapipe. This project allows users to draw on a virtual canvas using hand gestures, making use of hand landmarks for color selection and drawing.
 
-**Usage:**
-1. Run the `handcv_sketch.py` script.
-2. A window will open displaying the webcam feed and the canvas.
-3. Place your hand within the camera's view to start drawing.
-4. Use your index finger to sketch on the canvas.
-5. Move your thumb to select different colors (blue, green, red, yellow).
-6. To clear the canvas, position your hand over the "CLEAR" button and move your thumb upwards.
-7. Press 'q' to exit the application.
+## Features ✨
+- Draw with different colors using hand gestures.
+- Clear the canvas with a hand gesture.
+- Switch colors by moving the thumb close to the index finger.
 
-**Files Included:**
-- `main.py`: Main Python script containing the application code.
-- `README.md`: Readme file providing instructions and information about the project.
+## Demo 🖼️
+![Demo Image](result.png)
+
+## Installation 🛠️
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/harshaparida/Hand_cv_sketch.git
+    cd Hand_cv_sketch
+    ```
+
+2. Create and activate a virtual environment (optional but recommended):
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+
+3. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage 🚀
+1. Run the application:
+    ```bash
+    python main.py
+    ```
+
+2. Use your index finger to draw on the screen.
+3. Use the buttons on the top of the canvas to change colors or clear the screen.
+
+## Libraries Used 📚
+- [OpenCV](https://opencv.org/) - Open Source Computer Vision Library
+- [Mediapipe](https://mediapipe.dev/) - Cross-platform ML solutions for live and streaming media
+- [NumPy](https://numpy.org/) - The fundamental package for scientific computing with Python
+
+## Acknowledgments 🙏
+- Thanks to the developers of [OpenCV](https://opencv.org/) and [Mediapipe](https://mediapipe.dev/) for providing the tools necessary to build this project.
+
+
+---
+
+Made with ❤️ by [Harsha](https://github.com/harshaparida)
